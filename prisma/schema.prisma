@@ -9,20 +9,6 @@ datasource db {
   provider = "postgresql"
 }
 
-model InstagramPost {
-  id           String   @id
-  mediaType    String   @map("media_type")
-  mediaUrl     String   @map("media_url")
-  thumbnailUrl String?  @map("thumbnail_url")
-  permalink    String
-  caption      String?
-  postedAt     DateTime @map("posted_at")
-  cachedAt     DateTime @default(now()) @map("cached_at")
-  isActive     Boolean  @default(true) @map("is_active")
-
-  @@map("instagram_posts")
-}
-
 model TikTokVideo {
   id           String   @id
   title        String

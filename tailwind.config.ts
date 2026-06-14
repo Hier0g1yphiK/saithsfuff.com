@@ -2,6 +2,7 @@ import type { Config } from "tailwindcss";
 import plugin from "tailwindcss/plugin";
 
 const config: Config = {
+  darkMode: "class",
   content: [
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -142,6 +143,12 @@ const config: Config = {
           backdropFilter: "blur(10px)",
           borderRadius: "12px",
           border: "1px solid rgba(255, 240, 246, 0.5)",
+        },
+        ".dark .glass-card": {
+          background: "rgba(26, 14, 46, 0.8)",
+          backdropFilter: "blur(10px)",
+          borderRadius: "12px",
+          border: "none",
         },
       });
     }),

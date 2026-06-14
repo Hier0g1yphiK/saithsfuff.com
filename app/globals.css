@@ -20,9 +20,22 @@
     @apply font-display text-text-dark;
   }
 
+  .dark h1,
+  .dark h2,
+  .dark h3,
+  .dark h4,
+  .dark h5,
+  .dark h6 {
+    @apply text-lavender-100;
+  }
+
   /* Body text uses nunito with accessible color */
   body {
     @apply font-body text-text-body;
+  }
+
+  .dark body {
+    @apply text-gray-100;
   }
 
   /* Smooth scrolling */
@@ -37,6 +50,10 @@
     @apply rounded-card bg-white/70 backdrop-blur-sm shadow-whimsical border border-pink-100/50 p-6;
   }
 
+  .dark .whimsical-card {
+    @apply bg-lavender-900/30 border-lavender-700/30 shadow-none;
+  }
+
   /* Section container with padding and max-width */
   .section-container {
     @apply mx-auto max-w-6xl px-4 py-12 sm:px-6 lg:px-8;
@@ -47,6 +64,10 @@
     @apply text-lavender-500;
   }
 
+  .dark .gradient-text {
+    @apply text-lavender-300;
+  }
+
   /* Decorative divider with sparkle */
   .sparkle-divider {
     @apply relative flex items-center justify-center py-4;
@@ -55,6 +76,10 @@
   .sparkle-divider::before {
     content: "✦ ✧ ✦";
     @apply text-pink-300 text-sm tracking-[0.5em];
+  }
+
+  .dark .sparkle-divider::before {
+    @apply text-lavender-500;
   }
 }
 
