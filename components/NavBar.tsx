@@ -7,9 +7,7 @@ import ThemeToggle from "@/components/ThemeToggle";
 
 const navLinks = [
   { label: "Home", href: "/" },
-  { label: "About", href: "#about" },
-  { label: "Instagram", href: "#instagram" },
-  { label: "TikTok", href: "#tiktok" },
+  { label: "Portfolio", href: "/portfolio" },
 ];
 
 export default function NavBar() {
