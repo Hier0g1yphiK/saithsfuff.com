@@ -3,20 +3,11 @@
     {
       "name": "Default",
       "files": [
+        "components/DecorativeStars.tsx",
         ".vscode/changelists.json",
-        ".kiro/specs/media-kit-page/.config.kiro",
-        ".kiro/specs/media-kit-page/requirements.md",
-        ".kiro/specs/media-kit-page/design.md",
-        ".kiro/specs/media-kit-page/tasks.md",
-        "lib/media-kit-data.ts",
-        "components/NavBar.tsx",
-        "components/media-kit/MediaKitHero.tsx",
-        "components/media-kit/PlatformStats.tsx",
-        "components/media-kit/AudienceDemographics.tsx",
-        "components/media-kit/BrandCollaborations.tsx",
-        "components/media-kit/ContentExamples.tsx",
-        "components/media-kit/ContactCTA.tsx",
-        "app/portfolio/page.tsx"
+        "app/portfolio/page.tsx",
+        "app/page.tsx",
+        "components/media-kit/MediaKitHero.tsx"
       ]
     }
   ],

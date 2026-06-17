@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import NavBar from "@/components/NavBar";
+import DecorativeStars from "@/components/DecorativeStars";
 import MediaKitHero from "@/components/media-kit/MediaKitHero";
 import PlatformStats from "@/components/media-kit/PlatformStats";
 import AudienceDemographics from "@/components/media-kit/AudienceDemographics";
@@ -16,6 +17,7 @@ export const metadata: Metadata = {
 export default function PortfolioPage() {
   return (
     <>
+      <DecorativeStars />
       <NavBar />
       <main>
         <MediaKitHero />

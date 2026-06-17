@@ -3,11 +3,6 @@ import Image from "next/image";
 export default function MediaKitHero() {
   return (
     <section className="relative overflow-hidden bg-gradient-hero py-16 sm:py-24 dark:bg-none dark:bg-[#1a0e2e]">
-      {/* Decorative floating elements */}
-      <span className="absolute top-8 left-8 text-2xl animate-float opacity-50" aria-hidden="true">✦</span>
-      <span className="absolute top-16 right-12 text-lg animate-sparkle-pulse opacity-40" aria-hidden="true">✧</span>
-      <span className="absolute bottom-12 left-1/4 text-xl animate-float opacity-30" aria-hidden="true">✨</span>
-
       <div className="mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">
         {/* Profile image */}
         <div className="mx-auto mb-8 flex justify-center">
