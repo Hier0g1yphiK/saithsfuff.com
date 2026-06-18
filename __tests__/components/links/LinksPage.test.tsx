@@ -2,7 +2,7 @@ import "@testing-library/jest-dom";
 import { render, screen } from "@testing-library/react";
 import SocialLinksSection from "@/components/links/SocialLinksSection";
 import PartnersSection from "@/components/links/PartnersSection";
-import NavBar from "@/components/NavBar";
+import NavBar from "@/components/shared/NavBar/NavBar";
 import LinksPage from "@/app/links/page";
 
 // Mock window.matchMedia for ThemeToggle (used inside NavBar)

@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import ThemeToggle from "@/components/ThemeToggle";
+import ThemeToggle from "@/components/shared/ThemeToggleeToggle";
 
 const navLinks = [
   { label: "Home", href: "/" },
