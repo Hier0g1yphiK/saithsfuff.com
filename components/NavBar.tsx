@@ -8,6 +8,7 @@ import ThemeToggle from "@/components/ThemeToggle";
 const navLinks = [
   { label: "Home", href: "/" },
   { label: "Portfolio", href: "/portfolio" },
+  { label: "Links", href: "/links" },
 ];
 
 export default function NavBar() {
@@ -20,7 +21,7 @@ export default function NavBar() {
           {/* Logo */}
           <Link href="/" className="flex-shrink-0">
             <Image
-              src="/logo.png"
+              src="/images/logo.gif"
               alt="saithsfuff logo"
               width={40}
               height={40}
