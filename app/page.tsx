@@ -1,6 +1,6 @@
 import NavBar from "@/components/NavBar";
 import DecorativeStars from "@/components/DecorativeStars";
-import AboutSection from "@/components/AboutSection";
+import HomeHero from "@/components/HomeHero";
 import InstagramFeed from "@/components/InstagramFeed";
 import TikTokFeed from "@/components/TikTokFeed";
 
@@ -10,7 +10,7 @@ export default function Home() {
       <DecorativeStars />
       <NavBar />
       <main>
-        <AboutSection />
+        <HomeHero />
         <InstagramFeed />
         <TikTokFeed />
       </main>

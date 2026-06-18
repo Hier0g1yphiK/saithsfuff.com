@@ -3,11 +3,9 @@
     {
       "name": "Default",
       "files": [
-        "components/DecorativeStars.tsx",
+        "components/HomeHero.tsx",
         ".vscode/changelists.json",
-        "app/portfolio/page.tsx",
-        "app/page.tsx",
-        "components/media-kit/MediaKitHero.tsx"
+        "app/page.tsx"
       ]
     }
   ],
