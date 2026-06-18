@@ -209,3 +209,20 @@ Build the saithsfuff.com home page using Next.js App Router with Server Componen
 - Property tests validate universal correctness properties from the design document using fast-check
 - Unit tests validate specific examples and edge cases
 - The feed refresh mechanism is designed to be triggered by an external cron job (e.g., Vercel Cron)
+
+## Task Dependency Graph
+
+```json
+{
+  "waves": [
+    { "id": 0, "tasks": ["1.1", "1.2"] },
+    { "id": 1, "tasks": ["1.3", "1.4", "2.1", "5.1"] },
+    { "id": 2, "tasks": ["2.2", "2.3", "5.2", "6.1"] },
+    { "id": 3, "tasks": ["3.1", "3.2", "5.3", "6.2"] },
+    { "id": 4, "tasks": ["3.3"] },
+    { "id": 5, "tasks": ["3.4", "7.1", "8.1", "10.1"] },
+    { "id": 6, "tasks": ["7.2", "7.3", "8.2", "8.3", "10.2", "11.1"] },
+    { "id": 7, "tasks": ["11.2"] }
+  ]
+}
+```

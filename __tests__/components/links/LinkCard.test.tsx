@@ -5,6 +5,7 @@ describe('LinkCard', () => {
   const defaultProps = {
     name: 'Instagram',
     href: 'https://instagram.com/saithsfuff',
+    icon: '/images/links/instagram.png',
   }
 
   describe('anchor element attributes', () => {

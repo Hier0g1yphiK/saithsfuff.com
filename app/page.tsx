@@ -1,14 +1,17 @@
-import NavBar from "@/components/shared/NavBar/NavBar";
-import AboutSection from "@/components/home/AboutSection";
+import NavBar from "@/components/shared/NavBar";
+import DecorativeStars from "@/components/DecorativeStars";
+import HomeHero from "@/components/HomeHero";
+import TwitchSection from "@/components/home/TwitchSection";
 import InstagramFeed from "@/components/home/InstagramFeed";
-import TikTokFeed from "@/c@/components/home/InstagramFeed;
-@/components/home/TikTokFeed
+import TikTokFeed from "@/components/home/TikTokFeed";
 export default function Home() {
   return (
     <>
+      <DecorativeStars />
       <NavBar />
       <main>
-        <AboutSection />
+        <HomeHero />
+        <TwitchSection />
         <InstagramFeed />
         <TikTokFeed />
       </main>

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import NavBar from "@/components/shared/NavBar/NavBar";
+import NavBar from "@/components/shared/NavBar";
 import DecorativeStars from "@/components/DecorativeStars";
 import MediaKitHero from "@/components/media-kit/MediaKitHero";
 import PlatformStats from "@/components/media-kit/PlatformStats";

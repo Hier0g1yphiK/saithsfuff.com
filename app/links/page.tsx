@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import DecorativeStars from "@/components/DecorativeStars";
-import NavBar from "@/components/shared/NavBar/NavBar";
+import NavBar from "@/components/shared/NavBar";
 import LinksHero from "@/components/links/LinksHero";
 import SocialLinksSection from "@/components/links/SocialLinksSection";
 import PartnersSection from "@/components/links/PartnersSection";
