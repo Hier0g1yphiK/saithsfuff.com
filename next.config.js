@@ -2,9 +2,9 @@
 const nextConfig = {
   output: 'export',
   images: {
+    unoptimized: true,
     remotePatterns: [
       {
-        unoptimized: true,
         protocol: "https",
         hostname: "*.cdninstagram.com",
       },
