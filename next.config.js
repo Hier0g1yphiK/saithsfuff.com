@@ -10,6 +10,7 @@ const nextConfig = {
       },
     ],
   },
+  basePath: '/saithsfuff.com', // Only add this if you aren't using a custom domain
 };
 
 module.exports = nextConfig;
