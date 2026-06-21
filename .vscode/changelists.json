@@ -3,14 +3,23 @@
     {
       "name": "Default",
       "files": [
+        "public/images/links/instagram.png",
         ".vscode/changelists.json",
-        "next.config.js",
-        "lib/constants.ts",
-        "components/shared/NavBar.tsx",
-        "components/HomeHero.tsx",
-        "components/media-kit/MediaKitHero.tsx",
+        "public/images/links/youtube.png",
+        "public/images/links/twitter.png",
+        "public/images/links/twitch.png",
+        "public/images/links/tiktok.png",
+        "public/images/links/discord.png",
+        "public/images/links/clips-tiktok.png",
+        "public/images/links/threads.png",
+        "public/images/links/bluesky.png",
         "components/links/LinkCard.tsx",
-        "app/layout.tsx"
+        "public/images/links/throne.png",
+        "public/images/links/pin-ace.png",
+        "public/images/links/oodie.png",
+        "public/images/links/kinetic-hosting.png",
+        "public/images/links/divoom.png",
+        "public/images/links/charlotte-tilbury.png"
       ]
     }
   ],
