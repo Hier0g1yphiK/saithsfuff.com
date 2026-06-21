@@ -1,11 +1,11 @@
 /** @type {import('next').NextConfig} */
 const isProd = process.env.NODE_ENV === 'production';
-const basePath = isProd ? '/saithsfuff-site' : '';
+const repoName = '/saithsfuff-site';
 
 const nextConfig = {
   output: 'export',
-  basePath,
-  assetPrefix: basePath,
+  basePath: isProd ? repoName : '',
+  assetPrefix: isProd ? repoName : '',
   images: {
     unoptimized: true,
     remotePatterns: [

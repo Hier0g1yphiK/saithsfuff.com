@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { BASE_PATH } from "@/lib/constants";
 
 export default function HomeHero() {
   return (
@@ -8,7 +9,7 @@ export default function HomeHero() {
         <div className="mx-auto mb-8 flex justify-center">
           <div className="relative h-32 w-32 overflow-hidden rounded-full border-4 border-pink-200/60 shadow-whimsical-lg dark:border-lavender-700/40">
             <Image
-              src="/images/portrait.png"
+              src={`${BASE_PATH}/images/portrait.png`}
               alt="Portrait of saithsfuff"
               fill
               className="object-cover"

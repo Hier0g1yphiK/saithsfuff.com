@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { BASE_PATH } from "@/lib/constants";
 
 interface LinkCardProps {
   /** Display name of the platform or partner */
@@ -21,7 +22,7 @@ export default function LinkCard({ name, href, description, icon }: LinkCardProp
     >
       {/* Logo */}
       <Image
-        src={icon}
+        src={`${BASE_PATH}${icon}`}
         alt={`${name} logo`}
         width={32}
         height={32}

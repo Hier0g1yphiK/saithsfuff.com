@@ -4,6 +4,7 @@ import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import ThemeToggle from "@/components/shared/ThemeToggle";
+import { BASE_PATH } from "@/lib/constants";
 
 const navLinks = [
   { label: "Home", href: "/" },
@@ -21,7 +22,7 @@ export default function NavBar() {
           {/* Logo */}
           <Link href="/" className="flex-shrink-0">
             <Image
-              src="/images/logo.gif"
+              src={`${BASE_PATH}/images/logo.gif`}
               alt="saithsfuff logo"
               width={40}
               height={40}

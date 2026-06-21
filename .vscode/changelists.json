@@ -3,9 +3,14 @@
     {
       "name": "Default",
       "files": [
+        ".vscode/changelists.json",
         "next.config.js",
-        ".github/workflows/nextjs.yml",
-        ".vscode/changelists.json"
+        "lib/constants.ts",
+        "components/shared/NavBar.tsx",
+        "components/HomeHero.tsx",
+        "components/media-kit/MediaKitHero.tsx",
+        "components/links/LinkCard.tsx",
+        "app/layout.tsx"
       ]
     }
   ],
